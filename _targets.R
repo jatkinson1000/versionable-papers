@@ -13,6 +13,6 @@ list(
     paper,
     "example.qmd"#,
     # Can control output file location like so:
-    #output_file = ""
+    output_file = "pages/example.html"
   )
 )
