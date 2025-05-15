@@ -7,9 +7,10 @@ list(
   tar_target(data, get_data(file)),
   tar_target(model, fit_model(data)),
   tar_target(plot, plot_model(model, data)),
-  tar_render(
+  tar_quarto(
     paper,
-    "example.qmd",  # path to your Quarto file
-    output_format = "html"
+    "example.qmd"#,
+    # Can control output file location like so:
+    #output_file = ""
   )
 )
