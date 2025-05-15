@@ -13,11 +13,24 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v4
+    
+    - name: Install OS-level dependencies
+      uses:
+        sudo apt-get update && sudo apt-get install -y libigraph-dev libglpk-dev libcurl4-openssl-dev
 
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
       with:
         version: 1.4.515
+
+    - name: Install packages from renv
+      run: |
+        Rscript -e 'install.packages("renv")'
+        if [ -f renv.lock ]; then
+          Rscript -e 'renv::restore()'
+        else
+          echo "No renv.lock file found, skipping package installation."
+        fi
 
     - name: Hello world
       run: |
