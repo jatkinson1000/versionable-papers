@@ -12,7 +12,7 @@
 
 ## Fully executable papers
 
-There have been some efforts by individual researchers to create fully executable papers, along with guidelines for other researchers e.g. <https://www.nature.com/articles/s42005-020-00403-4>
+There have been some efforts by individual researchers to create fully executable papers, along with guidelines for other researchers e.g. <https://www.nature.com/articles/s42005-020-00403-4> and <https://doi.org/10.1038/s41597-025-04905-0>
 
 ## Joarnal initiatives
 
