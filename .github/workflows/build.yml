@@ -1,0 +1,17 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+        image: ghcr.io/rocker-org/tidyverse:4.5
+    strategy:
+      fail-fast: false
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Hello world
+      run: |
+        Rscript -e 'print("Hello world")'
