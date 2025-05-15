@@ -4,22 +4,22 @@
 ## Jupyter notebooks (and similar tools like R markdown)
 
 - These are live notebooks that combine code, figures and text, providing context to analysis in ways that are not possible with simple code scripts
-- Whilst most papers contain a single snapshot of a figure, authors can share notebooks along with their paper showcasing the code used to generate each figure
+- Whilst most papers contain a single snapshot of a figure, authors can share notebooks along with their paper, showcasing the code used to generate each figure
 - These can be made accessible with the use of cloud-based platforms such as binder and google colab, allowing others to run notebooks directly from their browser without having to download code
 - Researchers can continue to update and maintain these notebooks after inital publication of the article
-- However, **this is still separate from the paper** itself, and any changes/updates will not be reflected in the original article
+- However, ***this is still separate from the paper*** itself, and any changes/updates will not be reflected in the original article
 - There are also limitations on the kinds of analyses that can be performed in notebooks, necessitating a more robust solution for many research studies
 
 ## Fully executable papers
 
-There have been some efforts by individual researchers to create fully executable papers, along with guidelines for other researchers e.g. <https://www.nature.com/articles/s42005-020-00403-4> and <https://doi.org/10.1038/s41597-025-04905-0>
+There have been some efforts by individual researchers to create fully executable papers, along with guidelines for other researchers, e.g., [Lasser](https://www.nature.com/articles/s42005-020-00403-4) and [Stocker *et al.*](https://doi.org/10.1038/s41597-025-04905-0).
 
-## Joarnal initiatives
+## Journal initiatives
 
 There have been some efforts by journals to encourage the use of notebooks:
 
-- <https://www.nature.com/articles/515151a>
-- <https://www.oreilly.com/content/jupyter-at-oreilly/>
+- [Shen (*Nature*)](<https://www.nature.com/articles/515151a>)
+- [O'Reilly](https://www.oreilly.com/content/jupyter-at-oreilly/)
 
 [eLife executable research articles](https://elifesciences.org/collections/d72819a9/executable-research-articles)
 
