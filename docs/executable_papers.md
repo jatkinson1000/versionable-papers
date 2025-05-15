@@ -1,7 +1,6 @@
 
 # Previous work on executable papers
 
-
 ## Jupyter notebooks (and similar tools like R markdown)
 
 - These are live notebooks that combine code, figures and text, providing context to analysis in ways that are not possible with simple code scripts
@@ -15,26 +14,23 @@
 
 There have been some efforts by individual researchers to create fully executable papers, along with guidelines for other researchers e.g. <https://www.nature.com/articles/s42005-020-00403-4>
 
-
 ## Joarnal initiatives
 
 There have been some efforts by journals to encourage the use of notebooks:
+
 - <https://www.nature.com/articles/515151a>
 - <https://www.oreilly.com/content/jupyter-at-oreilly/>
-
 
 [eLife executable research articles](https://elifesciences.org/collections/d72819a9/executable-research-articles)
 
 - based on Jupyter notebooks and R markdown
 - shows code used to generate each figure, which can be run online on the eLife website
-- but these are not necessarily fully integrated from raw data to figures (just a series of scripts used to generate figures)
-- data and code are static
-- not sure if there's any system in place for updating
+- however, these are not necessarily fully integrated end-to-end pipelines (just a series of scripts used to generate figures)
+- data and code are static, and there doesn't seem to be any system in place for creating updates
 - no longer active
 
+## Beyond Execution: Verifying Pipelines
 
-## Tools to promote end-to-end research pipelines for reproducibility
-
-- Codecheck: Not executable papers per-se, but requires pipeline to be re-runnable and quantifiable research outputs verified. 
-- Promotes automation, but still up to authors to put the effort in, and no guidelines in place
+- Codecheck: Not executable papers per-se, but requires pipeline to be re-runnable and quantifiable research outputs verified.
+- Promotes automation, but it's still up to authors to put the effort in, and there are minimal guidelines in place
 - Could relate to versioning - i.e. any change that would cause codecheck to fail would be considered a "breaking" change, and require a major/minor version bump
