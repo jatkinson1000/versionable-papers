@@ -4,7 +4,7 @@ The traditional approach to undergoing research and publishing the results has c
 
 But, over the past 10 years or so, the nature of research has changed:
 
-* More results are published openly.
+* More data, code, and results are published openly.
 
 * Better software tools are available. For example, CI/CD (continuous integration/continuous deployment), modern version control tools, updated programming languages, and containerisation, to name but a few.
 
