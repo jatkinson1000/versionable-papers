@@ -11,7 +11,8 @@ list(
   # tar_target(map_html, htmlwidgets::saveWidget(map, file = "map_test.html", selfcontained = TRUE)),
   tar_render(
     paper,
-    "example.qmd",  # path to your Quarto file
-    output_format = "html"
+    "example.qmd"#,
+    # Can control output file location like so:
+    #output_file = ""
   )
 )
