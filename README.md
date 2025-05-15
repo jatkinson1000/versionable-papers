@@ -8,11 +8,14 @@ Hack Day.
 
 - [GitHub Project Board](https://github.com/users/jatkinson1000/projects/6)
 - [HackMD notes](https://hackmd.io/@4deJBiw5Q02xMEjNHqRPTw/rJdZuffWxe)
+- [Presentation slides](./cw25/CW25_Presentation.pdf)
 
 
 ### Key objectives
 
-- ??
+- Guidance on semantic versioning of research
+- A tool to automatically generate a new version of an executable paper when the code and/or data is changed
+
 
 
 ## Contributions
@@ -32,7 +35,7 @@ pull request.
 
 Copyright &copy; CW25 versionable papers [team](#team).
 
-Distributed under an [MIT License](https://github.com/jatkinson1000/versionable-papers/blob/main/LICENSE)
+Distributed under an [MIT License](https://github.com/jatkinson1000/versionable-papers/blob/main/LICENSE) (code) and [CC BY](https://creativecommons.org/licenses/by/4.0/) (documentation)
 
 
 ### Team
