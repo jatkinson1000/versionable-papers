@@ -1,7 +1,7 @@
 # Versioning research
 
 There are two main types of versioning schemes in use to provide context and semantics:
-- Significance of change based versionin (e.g. [Semantic Versioning](https://semver.org/)): provides information of the "importance" / "significance" of the change, originally used to say how much it breaks or changes compatibility of previous versions.
+- Significance of change based versioning (e.g. [Semantic Versioning](https://semver.org/)): provides information of the "importance" / "significance" of the change, originally used to say how much it breaks or changes compatibility of previous versions.
 - Date based versioning (e.g. [CalVer](https://calver.org/), [HashVer](https://miniscruff.github.io/hashver/)): provides information on when a change has been made, providing absolute information of the relationship between versioned objects. Hashes can be used if the object is changing rapidly.
 
 Andrew Nesbitt has written a good overview of [different versioning schemes](https://nesbitt.io/2024/06/24/from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.html) 
