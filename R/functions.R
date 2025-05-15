@@ -29,7 +29,7 @@ process_data <- function(data) {
 	
 }
 
-mapper <- function(aoo_poly_geog, new_aoo_poly_geog)
+mapper <- function(aoo_poly_geog, new_aoo_poly_geog) {
 	m <- leaflet() %>%
 	  leaflet::addProviderTiles("OpenStreetMap", group = "OpenStreetMap") %>%
 	  leaflet::addProviderTiles("Esri.WorldImagery", group = "Satellite")
