@@ -1,7 +1,20 @@
-# Contents
+# Why we need versionable papers and how you can implement them
 
-[Motivation](./Motivation.md)
+_How can we make executable papers properly reflect the research process?_
 
-[Context: The changing research landscape](./ChangingLandscape.md)
+## Why is this important?
+- [Motivation](./motivation.md)
+- [The changing research landscape](./ChangingLandscape.md)
 
-[Executable papers](./executable_papers.md)
+## What's already been done?
+- [Executable papers](./executable_papers.md)
+- [Versioning research](./versiong.md)
+
+## What can you do? 
+- What is the research process?
+- Setting up your research infrastructure to support incrememntal and iterative research?
+
+
+
+
+
