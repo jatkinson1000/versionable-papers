@@ -1,0 +1,44 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+        # Uses a container with R and a standard set of packages pre-installed
+        image: ghcr.io/rocker-org/tidyverse:4.5
+    strategy:
+      fail-fast: false
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+    
+    # Additional dependencies are needed for the R packages used in the project.
+    # These are not available in the rocker/tidyverse image or on CRAN.
+    - name: Install OS-level dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libigraph-dev libglpk-dev libcurl4-openssl-dev gdal-bin libgdal-dev libgeos-dev libudunits2-dev
+
+    # Set up Quarto, used for rendering R Markdown documents.
+    - name: Set up Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
+      with:
+        version: 1.4.515
+
+    # Set up the R environment to include packages specified in the renv.lock file.
+    - name: Install packages from renv
+      run: |
+        Rscript -e 'install.packages("renv")'
+        if [ -f renv.lock ]; then
+          Rscript -e 'renv::restore()'
+        else
+          echo "No renv.lock file found, skipping package installation."
+        fi
+
+    # Placeholder
+    - name: Hello world
+      run: |
+        Rscript -e 'print("Hello world")'

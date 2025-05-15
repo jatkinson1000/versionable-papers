@@ -1,4 +1,4 @@
-# CW25 Hack Day
+# CW25 Hack Day: Versioned Papers
 
 Project for the [2025 Collaborations Workshop](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25)
 Hack Day.
@@ -29,19 +29,20 @@ pull request.
 
 Copyright &copy; CW25 versionable papers [team](#team).
 
-diustributed under an [MIT License](https://github.com/jatkinson1000/versionable-papers/blob/main/LICENSE)
+Distributed under an [MIT License](https://github.com/jatkinson1000/versionable-papers/blob/main/LICENSE)
 
 ### Team
 
 - [Jack Atkinson](https://jackatkinson.net/)
 - Richard J. Acton
-- Nicky Nicolson
+- [Nicky Nicolson](https://www.kew.org/science/our-science/people/nicky-nicolson)
 - Liam Pattinson
 - Tom Bland
 - Neil Chue Hong
 - Gabriel Mateus Bernardo Harrington
-- Matthew Gillman
+- [Matthew S. Gillman](https://www.lannelongue-group.org/members/Matthew%20Gillman.html)
 - Scott Archer Nicholls
+- [Steve Bachman](https://www.kew.org/science/our-science/people/steven-p-bachman) - SPB has contributed an [existing project](https://github.com/stevenpbachman/gbif_species_monitor) which we're using as a basis  
 
 ## Seed point data example
 
@@ -59,3 +60,5 @@ This pipeline is encapsulated by a CI that building a [Docker](https://www.docke
 The R dependencies are managed by [renv](https://rstudio.r-universe.dev/renv) with a lock file defining the packages/versions is used by the image build process.
 
 This is used in conjunction with a semantic versioning system to track changes to the changes to data, software and analytical results
+
+
