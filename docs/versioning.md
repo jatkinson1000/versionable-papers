@@ -14,7 +14,7 @@ There have also been developments which help to packages the many different part
 - [RO-Crate](https://www.researchobject.org/ro-crate/): provides an integrated view across all elements of a research object. It includes identifiers and relationships, but doesn't enforce any policies on how to apply versioning.
 - [Open Science Framework[(https://osf.io/): provides a place to manage and publish all the parts of a piece of research to enable collaboration. It provides some [guidance around versioning](https://help.osf.io/article/282-file-revisions-and-version-control) but 
 
-However, there is surprisingly little guidance on how to apply semantic versioning to different types of research object, and no guidance on how research teams can support continual incremental releasing.
+**However, there is surprisingly little guidance on how to apply semantic versioning to different types of research object, and no guidance on how research teams can support continual incremental releasing.**
 
 Some questions that need further progress to enable this include
 - Do we need the concept of versioning the research as a whole (e.g. the RO-Crate). If so, how do you apply semantic versioning to this? For example, if the software changes substantially, e.g. complete rewrite with major version, but the functionality used for the paper hasn't changed substantially, and the data hasn't changed, is this  as a major change to the research?
