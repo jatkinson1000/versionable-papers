@@ -8,7 +8,7 @@ But, over the past 10 years or so, the nature of research has changed:
 
 * Better software tools are available. For example, CI/CD (continuous integration/continuous deployment), modern version control tools, updated programming languages, and containerisation, to name but a few.
 
-* Datasets and code are continually being updated.
+* Datasets and code are continually being updated *at a single location* - version control, data repositories/collections.
 
 * As a consequence, results are continually being refined and enhanced.
 
