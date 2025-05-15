@@ -14,13 +14,17 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v4
-    
+
     # Additional dependencies are needed for the R packages used in the project.
     # These are not available in the rocker/tidyverse image or on CRAN.
     - name: Install OS-level dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y libigraph-dev libglpk-dev libcurl4-openssl-dev gdal-bin libgdal-dev libgeos-dev libudunits2-dev pkg-config cmake libabsl-dev
+    
+    # Set up R
+    - uses: r-lib/actions/setup-r@v2
+    - uses: r-lib/actions/setup-renv@v2 
 
     # Set up Quarto, used for rendering R Markdown documents.
     - name: Set up Quarto
