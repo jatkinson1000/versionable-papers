@@ -15,8 +15,9 @@ jobs:
       uses: actions/checkout@v4
     
     - name: Install OS-level dependencies
-      uses:
-        sudo apt-get update && sudo apt-get install -y libigraph-dev libglpk-dev libcurl4-openssl-dev
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libigraph-dev libglpk-dev libcurl4-openssl-dev
 
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
