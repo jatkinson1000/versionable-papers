@@ -1,0 +1,14 @@
+---
+title: Example
+format: html
+---
+
+```{r}
+library(targets)
+```
+
+Here is a plot from targets
+
+```{r}
+tar_read(plot)
+```

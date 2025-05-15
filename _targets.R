@@ -6,5 +6,10 @@ list(
   tar_target(file, "data/data.csv", format = "file"),
   tar_target(data, get_data(file)),
   tar_target(model, fit_model(data)),
-  tar_target(plot, plot_model(model, data))
+  tar_target(plot, plot_model(model, data)),
+  tar_render(
+    paper,
+    "example.qmd",  # path to your Quarto file
+    output_format = "html"
+  )
 )
