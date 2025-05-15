@@ -1,6 +1,6 @@
 # Context: The Changing Landscape of Research
 
-The traditional approach to undergoing research and publishing the results has changed little in the last century. Papers are still generally written to submit to a paper journal, albeit often as an online PDF nowadays.
+The traditional approach to undergoing research and publishing the results has changed little in the last century. Papers are still generally written to submit to an academic journal, albeit as a PDF nowadays.
 
 But, over the past 10 years or so, the nature of research has changed:
 
