@@ -1,5 +1,7 @@
 # Contents
 
-[Motivation](./motivation.md)
-[Executable papers](./executable_papers.md)
+[Motivation](./Motivation.md)
 
+[Context: The changing research landscape](./ChangingLandscape.md)
+
+[Executable papers](./executable_papers.md)
