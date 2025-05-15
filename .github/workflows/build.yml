@@ -31,12 +31,8 @@ jobs:
     # Set up the R environment to include packages specified in the renv.lock file.
     - name: Install packages from renv
       run: |
-        Rscript -e 'install.packages("renv")'
-        if [ -f renv.lock ]; then
-          Rscript -e 'renv::restore()'
-        else
-          echo "No renv.lock file found, skipping package installation."
-        fi
+        Rscript --no-init-file -e 'install.packages("renv")'
+        Rscript -e 'renv::restore()'
 
     # Placeholder
     - name: Hello world
