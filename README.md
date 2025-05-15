@@ -39,10 +39,11 @@ Distributed under an [MIT License](https://github.com/jatkinson1000/versionable-
 
 - [Jack Atkinson](https://jackatkinson.net/)
 - Richard J. Acton
-- Nicky Nicolson
+- [Nicky Nicolson](https://www.kew.org/science/our-science/people/nicky-nicolson)
 - Liam Pattinson
 - Tom Bland
 - Neil Chue Hong
 - Gabriel Mateus Bernardo Harrington
 - [Matthew S. Gillman](https://www.lannelongue-group.org/members/Matthew%20Gillman.html)
 - Scott Archer Nicholls
+- [Steve Bachman](https://www.kew.org/science/our-science/people/steven-p-bachman) - SPB has contributed an [existing project](https://github.com/stevenpbachman/gbif_species_monitor) which we're using as a basis  
