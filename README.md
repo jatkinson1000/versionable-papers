@@ -1,4 +1,4 @@
-# CW25 Hack Day
+# CW25 Hack Day: Versioned Papers
 
 Project for the [2025 Collaborations Workshop](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25)
 Hack Day.
@@ -32,7 +32,7 @@ pull request.
 
 Copyright &copy; CW25 versionable papers [team](#team).
 
-diustributed under an [MIT License](https://github.com/jatkinson1000/versionable-papers/blob/main/LICENSE)
+Distributed under an [MIT License](https://github.com/jatkinson1000/versionable-papers/blob/main/LICENSE)
 
 
 ### Team
@@ -44,5 +44,5 @@ diustributed under an [MIT License](https://github.com/jatkinson1000/versionable
 - Tom Bland
 - Neil Chue Hong
 - Gabriel Mateus Bernardo Harrington
-- Matthew Gillman
+- [Matthew S. Gillman](https://www.lannelongue-group.org/members/Matthew%20Gillman.html)
 - Scott Archer Nicholls
