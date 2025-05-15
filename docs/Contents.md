@@ -1,5 +1,8 @@
 # Contents
 
-[Motivation](./motivation.md)
+[Motivation](./Motivation.md)
+
+[Context: The changing research landscape](./ChangingLandscape.md)
+
 
 
