@@ -8,7 +8,7 @@ _How can we make executable papers properly reflect the research process?_
 
 ## What's already been done?
 - [Executable papers](./executable_papers.md)
-- [Versioning research](./versiong.md)
+- [Versioning research](./versioning.md)
 
 ## What can you do? 
 - What is the research process?
