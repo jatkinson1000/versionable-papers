@@ -12,7 +12,7 @@ But, over the past 10 years or so, the nature of research has changed:
 
 * As a consequence, results are continually being refined and enhanced.
 
-The model we propose here seeks to lever the advantage of the above points into the publication process. A form of "continuous publication", if you will. The idea being that updated results automatically result in an updated paper.
+The model we propose brings the above points into the publication process. A form of "continuous publication", if you will. The idea being that updated results automatically result in an updated paper.
 
 It is important to stress that, although the approach we propose is largely automated, there remains the need for a "human in the loop". It is up to the researcher to decide if the updated results should go into a versioned update of the paper, or are new/significnt enough to justify a completely new paper.
 
