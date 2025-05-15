@@ -3,19 +3,17 @@
 Project for the [2025 Collaborations Workshop](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25)
 Hack Day.
 
-
 ### Key Resources
 
 - [GitHub Project Board](https://github.com/users/jatkinson1000/projects/6)
 - [HackMD notes](https://hackmd.io/@4deJBiw5Q02xMEjNHqRPTw/rJdZuffWxe)
 
-
 ### Key objectives
 
 - ??
 
-
 ## Contributions
+
 Contributions and collaborations are welcome from anyone with an
 interest in improving research publication.
 
@@ -27,13 +25,11 @@ address an [open issue](https://github.com/jatkinson1000/versionable-papers/issu
 [fork the repository](https://github.com/jatkinson1000/versionable-papers/fork) and open a
 pull request.
 
-
 ### License
 
 Copyright &copy; CW25 versionable papers [team](#team).
 
 diustributed under an [MIT License](https://github.com/jatkinson1000/versionable-papers/blob/main/LICENSE)
-
 
 ### Team
 
@@ -46,3 +42,20 @@ diustributed under an [MIT License](https://github.com/jatkinson1000/versionable
 - Gabriel Mateus Bernardo Harrington
 - Matthew Gillman
 - Scott Archer Nicholls
+
+## Seed point data example
+
+This example is using `details of species/analysis here`
+
+The pipeline is built using [targets](https://books.ropensci.org/targets/), a [Make](https://www.gnu.org/software/make/)-like pipeline tool for statistics and data science in R.
+This package allows for establishing analytical dependencies, so if an input data source changes, all the relevant analytical components can be rerun automatically as needed.
+
+This pipeline culminates in the rendering of a [Quarto](https://quarto.org/) file.
+Quarto is a [literate programming](https://en.wikipedia.org/wiki/Literate_programming) approach that allows a dynamic paper to be produced with the updated analysis results in a publication ready format.
+
+The Quarto file is rendered to the `docs` directory which is in turn served by [GitHub Pages](https://pages.github.com/).
+
+This pipeline is encapsulated by a CI that building a [Docker](https://www.docker.com/) image from the [Rocker](https://rocker-project.org/) project
+The R dependencies are managed by [renv](https://rstudio.r-universe.dev/renv) with a lock file defining the packages/versions is used by the image build process.
+
+This is used in conjunction with a semantic versioning system to track changes to the changes to data, software and analytical results
