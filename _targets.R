@@ -1,7 +1,8 @@
 library(targets)
 library(tarchetypes)
 tar_source()
-tar_option_set(packages = c("readr", "dplyr", "ggplot2","rCAT2","dplyr","sf","leaflet","htmlwidgets"))
+# tar_option_set(packages = c("readr", "dplyr", "ggplot2","rCAT2","dplyr","sf","leaflet","htmlwidgets"))
+tar_option_set(packages = c("readr", "dplyr", "ggplot2","dplyr","sf","leaflet","htmlwidgets"))
 list(
   tar_target(previous_data, "data/Pachypodium_rosulatum/previous_data.rds", format = "file"),
   tar_target(new_recs, "data/Pachypodium_rosulatum/new_records_20250515_102643.rds", format = "file"),
