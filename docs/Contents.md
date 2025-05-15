@@ -13,7 +13,7 @@ _How can we make executable papers properly reflect the research process?_
 ## What can you do? 
 - What is the research process?
 - Setting up your research infrastructure to support incrememntal and iterative research?
-
+- [Benefits for researchers](./benefits.md)
 
 
 
