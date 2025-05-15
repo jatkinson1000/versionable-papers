@@ -1,12 +1,14 @@
 library(targets)
 library(tarchetypes)
 tar_source()
-tar_option_set(packages = c("readr", "dplyr", "ggplot2"))
+tar_option_set(packages = c("readr", "dplyr", "ggplot2","rCAT","dplyr","sf","leaflet","htmlwidgets"))
 list(
-  tar_target(file, "data/data.csv", format = "file"),
-  tar_target(data, get_data(file)),
-  tar_target(model, fit_model(data)),
-  tar_target(plot, plot_model(model, data)),
+  tar_target(previous_data, "data/Pachypodium_rosulatum/previous_data.rds", format = "file"),
+  tar_target(new_recs, "data/Pachypodium_rosulatum/new_records_20250515_102643.rds", format = "file"),
+  tar_target(aoo_poly_geog, process_data(previous_data)),
+  tar_target(new_aoo_poly_geog, process_data(new_recs)),
+  tar_target(map, mapper(aoo_poly_geog, new_aoo_poly_geog)),
+  # tar_target(map_html, htmlwidgets::saveWidget(map, file = "map_test.html", selfcontained = TRUE)),
   tar_render(
     paper,
     "example.qmd",  # path to your Quarto file

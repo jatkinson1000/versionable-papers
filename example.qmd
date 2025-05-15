@@ -10,5 +10,5 @@ library(targets)
 Here is a plot from targets
 
 ```{r}
-tar_read(plot)
+tar_read(map)
 ```
