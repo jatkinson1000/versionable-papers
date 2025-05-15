@@ -1,12 +1,15 @@
 # Versioning research
 
-There are two main types of versioning schemes in use:
-- Semantic Versioning (or similar): provides information of the "importance" / "significance" of the change, originally used to say how much it breaks or changes
-- Date based versioning: ensures linear chronology. Can be useful for constantly changing things. May need additional hashes if changing extremely rapidly 
+There are two main types of versioning schemes in use to provide context and semantics:
+- Significance of change based versionin (e.g. [Semantic Versioning](https://semver.org/)): provides information of the "importance" / "significance" of the change, originally used to say how much it breaks or changes compatibility of previous versions.
+- Date based versioning (e.g. [CalVer](https://calver.org/), [HashVer](https://miniscruff.github.io/hashver/)): provides information on when a change has been made, providing absolute information of the relationship between versioned objects. Hashes can be used if the object is changing rapidly.
 
-Existing use of structured versioning for research:
-- Semantic Versioning for papers:
-    - https://royalsocietypublishing.org/doi/10.1098/rsbl.2022.0463
+Andrew Nesbitt has written a good overview of [different versioning schemes](https://nesbitt.io/2024/06/24/from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.html) 
+
+There have been suggestions of how to use these versioning schemes in research:
+- [Semantic Versioning for papers](https://royalsocietypublishing.org/doi/10.1098/rsbl.2022.0463): here the the MAJOR / MINOR / MICRO definitions are mapped to adding a major analysis. adding a minor analysis and adding a correction, respectively
+- 
+    - 
     - Link semantic versioning to the paper e.g. 
         - When published v1.0.0
         - v2.0.0 adds a major analysis
