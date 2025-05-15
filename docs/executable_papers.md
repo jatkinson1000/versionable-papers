@@ -7,7 +7,7 @@
 - Whilst most papers contain a single snapshot of a figure, authors can share notebooks along with their paper showcasing the code used to generate each figure
 - These can be made accessible with the use of cloud-based platforms such as binder and google colab, allowing others to run notebooks directly from their browser without having to download code
 - Researchers can continue to update and maintain these notebooks after inital publication of the article
-- However, this is still separate from the paper itself, and any changes/updates will note be reflected in the original article
+- However, **this is still separate from the paper** itself, and any changes/updates will not be reflected in the original article
 - There are also limitations on the kinds of analyses that can be performed in notebooks, necessitating a more robust solution for many research studies
 
 ## Fully executable papers
