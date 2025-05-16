@@ -26,10 +26,11 @@ process_data <- function(data) {
 	aoo_val <- aoo(thepoints)
 	aoo_grid <- aoo(thepoints, returnV = "SF", cellsize = 20000)
 	aoo_poly_geog <- st_transform(aoo_grid, 4326) #set to geogrpahic to view on map
-	
+  
+	list(eoo_poly_geog = eoo_poly_geog, aoo_poly_geog = aoo_poly_geog)	
 }
 
-mapper <- function(aoo_poly_geog, new_aoo_poly_geog) {
+mapper <- function(eoo_poly_geog, aoo_poly_geog, new_aoo_poly_geog) {
 	m <- leaflet() %>%
 	  leaflet::addProviderTiles("OpenStreetMap", group = "OpenStreetMap") %>%
 	  leaflet::addProviderTiles("Esri.WorldImagery", group = "Satellite")
